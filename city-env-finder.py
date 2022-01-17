@@ -22,3 +22,4 @@ if __name__ == "__main__":
   f.close()
   # sys.path.append(os.environ['WORKSPACE'])
   # sys.path.append('city_env_checker/bin/activate')
+  return res
