@@ -3,7 +3,7 @@ import sys
 import os
 import json
 
-if __name__ == "__main__:
+if __name__ == "__main__":
   city = os.environ.get("CITY")
   res = ""
   with open("kubernetes_deployment_mapping.json") as json_file:
